@@ -3,7 +3,7 @@ const listadod = document.querySelector('#listadod');
 const listadot = document.querySelector('#listadot');
 
 const button = document.createElement("button");
-fetch('http://demo6497253.mockable.io/noticias')
+fetch('https://demo6497253.mockable.io/noticias')
     .then(function(response) {
         return response.json();
 
@@ -63,7 +63,7 @@ function creartarjetas(jsonObj) {
 }
 
 
-fetch('http://demo6497253.mockable.io/categoria/deporte')
+fetch('https://demo6497253.mockable.io/categoria/deporte')
     .then(function(response) {
         return response.json();
 
@@ -117,7 +117,7 @@ function creartarjetas2(jsonObj) {
     }
 }
 
-fetch('http://demo6497253.mockable.io/categoria/tecnologia')
+fetch('https://demo6497253.mockable.io/categoria/tecnologia')
     .then(function(response) {
         return response.json();
 
@@ -175,7 +175,7 @@ function creartarjetas3(jsonObj) {
 
 function vertodo() {
 
-    fetch('http://demo6497253.mockable.io/noticias')
+    fetch('https://demo6497253.mockable.io/noticias')
         .then(function(response) {
             return response.json();
 
